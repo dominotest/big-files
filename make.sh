@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for i in {1...99}
+for i in {1..40}
 do
    echo "Building $i commit"
    head -c 1000000 /dev/urandom >> medium
